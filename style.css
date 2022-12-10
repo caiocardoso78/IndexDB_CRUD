@@ -1,0 +1,48 @@
+table{
+    background-color: rgb(200, 207, 126);
+    font-size: 20px;
+}
+#result{
+    background-color: rgb(176, 207, 126);
+    font-size: 30px;
+    color: black;   
+}
+.l1{
+    background-color: rgb(176, 207, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;   
+}
+#codigo{
+    font-size: 20px;
+    background-color:fff;
+    border-style: none;
+}
+#nome{
+    font-size: 20px;
+    background-color:fff;
+    border-style: none;   
+}
+#addBtn{
+
+    background-color: greenyellow;
+}
+#removeBtn{
+    background-color: red;
+    color: white;
+}
+#getBtn{
+    background-color: blue;
+    color: white;
+}
+#updateBtn{
+    background-color: yellow;
+}
+#nome{
+    background-color: rgb(247, 240, 227);
+    font-style: italic;
+}
+#codigo{
+    background-color: rgb(247, 240, 227);
+    font-style: italic;
+    font: size 100%;
+}

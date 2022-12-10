@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DM122 IndexedDB</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+<form>
+<table border="0" width="100%">
+	<div class="header">
+		<tr class="l1">
+			<td colspan="3"><b><font size="6">Cadastro Estudantes</font></b></td>
+		</tr>
+		<hr><hr>
+	</div>
+	<tr>
+		<td>Codigo:</td>
+		<td colspan="12%"><input type="text" name="codigo" id="codigo" placeholder="Digite um código"/></td>
+	</tr>
+	<tr>
+		<td>Nome:</td>
+		<td colspan="2">  <input type="text" name="nome" id="nome" placeholder="Digite um nome"/></td>
+	</tr>
+	<tr>
+		<td width="12%">&nbsp;</td>
+		<td class="button">
+			<input type="button" name="addBtn" value="Adicionar" id="addBtn"/>
+			<input type="button" name="removeBtn" value="Remover" id="removeBtn"/>
+			<input type="button" name="getBtn" value="Localizar" id="getBtn"/>
+			<input type="button" name="updateBtn" value="Atualizar" id="updateBtn"/>
+			</td>
+		<td width="3%">&nbsp;</td>
+	</tr>
+</table><hr><hr>
+</form>
+<div id="result"></div>
+</body>
+</html>
